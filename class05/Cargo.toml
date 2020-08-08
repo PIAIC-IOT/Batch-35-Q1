@@ -1,0 +1,14 @@
+[package]
+name = "class05"
+version = "0.1.0"
+authors = ["Fahim Uz Zaman <36442455+faheemuzzaman@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+## Absolute path in Operating System
+# iotio = {path = "C:\\Users\\Admin\\Desktop\\Rust\\Batch 35 Q1\\iotio"}
+## Relative Path in OPerating System
+iotio = {path = "../iotio"}
+text_io = "0.1.8"
